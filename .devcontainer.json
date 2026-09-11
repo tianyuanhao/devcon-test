@@ -1,0 +1,11 @@
+{
+    "name": "dev con Test",
+    "image": "mcr.microsoft.com/devcontainers/base:3-ubuntu26.04",
+    "features": {
+        "ghcr.io/devcontainers-extra/features/apt-get-packages:1": {
+            "packages": "qemu-utils"
+        }
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/devConTest,type=bind",
+    "workspaceFolder": "/workspaces/devConTest"
+}
