@@ -6,6 +6,6 @@
             "packages": "qemu-utils"
         }
     },
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/devConTest,type=bind",
+    "workspaceMount": "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind",
     "workspaceFolder": "/workspaces/devConTest"
 }
