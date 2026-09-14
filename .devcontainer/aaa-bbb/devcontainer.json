@@ -7,5 +7,10 @@
         }
     },
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/devConTest,type=bind",
-    "workspaceFolder": "/workspaces/devConTest"
+    "workspaceFolder": "/workspaces/devConTest",
+
+       "hostRequirements": {
+        "storage": "40gb"
+    }
+
 }
